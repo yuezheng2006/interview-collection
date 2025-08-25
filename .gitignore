@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+/frontend/dist/
+/backend/bin/
+/backend/build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Temporary folders
+tmp/
+temp/
+
+# Media files (keeping only necessary ones)
+*.mov
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Documentation that might be redundant
+/AI写作助⼿-陈慧源/
+
+# Keep only essential documentation
+# /doc/ - keeping this as it contains important project docs
