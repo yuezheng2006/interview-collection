@@ -59,6 +59,16 @@ tmp/
 temp/
 
 # Media files (keeping only necessary ones)
+# Allow media files in specific directories
+!陈慧源/media/*.mov
+!陈慧源/media/*.mp4
+!陈慧源/media/*.avi
+!陈慧源/media/*.jpg
+!陈慧源/media/*.jpeg
+!陈慧源/media/*.png
+!陈慧源/media/*.gif
+
+# Ignore media files elsewhere
 *.mov
 *.mp4
 *.avi
