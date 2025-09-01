@@ -68,6 +68,12 @@ temp/
 !陈慧源/media/*.png
 !陈慧源/media/*.gif
 
+# Allow images in lijiarui directory
+!lijiarui/img/*.png
+!lijiarui/img/*.jpg
+!lijiarui/img/*.jpeg
+!lijiarui/img/*.gif
+
 # Ignore media files elsewhere
 *.mov
 *.mp4
