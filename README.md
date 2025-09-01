@@ -16,7 +16,7 @@
   - 文档编辑和预览
   - 响应式UI设计
 
-### 李家瑞 (lijiarui)
+### lijiarui
 - **目录**: [lijiarui/](./lijiarui/)
 - **项目**: AI代码审查Chrome插件
 - **技术栈**: Chrome Extension + JavaScript + AI API
