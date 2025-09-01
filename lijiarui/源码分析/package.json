@@ -1,0 +1,35 @@
+{
+  "name": "ai-code-review-to-github",
+  "version": "0.0.1",
+  "description": "GitHub Pull Request AI代码审查助手Chrome扩展",
+  "author": "sawrysc@163.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/manifest.json --dist-dir dist --no-optimize",
+    "dev": "parcel watch src/manifest.json --dist-dir dist --no-hmr",
+    "pack": "web-ext build --source-dir=dist --artifacts-dir=releases",
+    "lint": "eslint src/**/*.js",
+    "clean": "rimraf dist releases"
+  },
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.9.3",
+    "parcel": "^2.9.3",
+    "web-ext": "^7.6.2",
+    "eslint": "^8.44.0",
+    "rimraf": "^5.0.1"
+  },
+  "dependencies": {
+    "codemirror": "^6.0.1",
+    "marked": "^5.1.1"
+  },
+  "webExt": {
+    "sourceDir": "dist",
+    "artifactsDir": "releases",
+    "build": {
+      "overwriteDest": true
+    }
+  },
+  "parcelWebExtension": {
+    "manifestPath": "src/manifest.json"
+  }
+}
