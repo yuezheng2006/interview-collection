@@ -1,0 +1,28 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 外圈装饰 -->
+  <circle cx="60" cy="60" r="58" fill="none" stroke="url(#gradient1)" stroke-width="2" opacity="0.3"/>
+  
+  <!-- 主圆形背景 -->
+  <circle cx="60" cy="60" r="45" fill="url(#gradient1)" stroke="white" stroke-width="2"/>
+  
+  <!-- 内部装饰元素 -->
+  <circle cx="60" cy="60" r="35" fill="none" stroke="white" stroke-width="1" opacity="0.6"/>
+  
+  <!-- 对勾符号 - 代表AI的准确性 -->
+  <path d="M35 60L50 75L85 40" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- 装饰性小点 -->
+  <circle cx="25" cy="25" r="3" fill="white" opacity="0.8"/>
+  <circle cx="95" cy="25" r="2" fill="white" opacity="0.6"/>
+  <circle cx="25" cy="95" r="2" fill="white" opacity="0.6"/>
+  <circle cx="95" cy="95" r="3" fill="white" opacity="0.8"/>
+  
+  <!-- 渐变定义 -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="50%" style="stop-color:#764ba2"/>
+      <stop offset="100%" style="stop-color:#f093fb"/>
+    </linearGradient>
+  </defs>
+</svg> 
