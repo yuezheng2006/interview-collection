@@ -4,8 +4,8 @@
 
 ## 面试者列表
 
-### 陈慧源
-- **目录**: [陈慧源/](./陈慧源/)
+### 陈慧源 (chenhuiyuan)
+- **目录**: [chenhuiyuan/](./chenhuiyuan/)
 - **项目**: AI写作助手
 - **技术栈**: Vue 3 + TypeScript + Go + DeepSeek API
 - **功能特性**:
@@ -16,14 +16,35 @@
   - 文档编辑和预览
   - 响应式UI设计
 
+### 李家瑞 (lijiarui)
+- **目录**: [lijiarui/](./lijiarui/)
+- **项目**: AI代码审查Chrome插件
+- **技术栈**: Chrome Extension + JavaScript + AI API
+- **功能特性**:
+  - GitHub Pull Request自动代码审查
+  - 技术栈自动检测和分析
+  - AI智能代码问题识别
+  - 流式响应处理
+  - 代码差异可视化展示
+  - 历史数据统计图表
+- **评分**: 7.15/10 (B+级别)
+
 ## 项目结构说明
 
-每个面试者的项目都包含以下标准结构：
+每个面试者的项目都包含以下结构：
+
+**全栈Web应用项目**（如 chenhuiyuan）：
 - `frontend/` - 前端项目（Vue 3 + TypeScript）
 - `backend/` - 后端服务（Go）
 - `doc/` - 项目文档
 - `README.md` - 项目说明
 - `env.example` - 环境变量示例
+
+**Chrome扩展项目**（如 lijiarui）：
+- `ai-code-review-to-github/` - Chrome扩展插件文件
+- `img/` - 效果截图
+- `使用说明.md` - 使用指南
+- `AI代码审查插件评分报告.md` - 评分报告
 
 ## 如何运行项目
 
